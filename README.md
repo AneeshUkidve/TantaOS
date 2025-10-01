@@ -7,7 +7,8 @@ Learning OSDev by making an OS from scratch,
 - xorriso
 
 # Building the files
-`make all` builds TantaOS.bin
-This can be run in qemu by specifying the `-kernel` option
-`make TantaOS.iso` builds the iso file, this requires grub and xorriso installed
-`make clean` cleans the directory of all the build files, except isodir/boot/TantaOS.bin
+`make all` builds TantaOS.bin, this can be run in qemu by specifying the `-kernel` option.
+
+`make TantaOS.iso` builds the iso file, this requires grub and xorriso installed.
+
+`make clean` cleans the directory of all the build files, except isodir/boot/TantaOS.bin.
